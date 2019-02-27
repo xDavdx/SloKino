@@ -1,0 +1,190 @@
+/*@import "https://fonts.googlepis.com/css?family=Lato|Open+Sans"*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+                                                            /* HEADER */
+
+.header {
+    width: 100%;
+    height: 95vh;
+    font-family: "Lato", Arial, sans-serif;
+    background: linear-gradient( rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)),  url("Dubai.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0, 0, 100%, 0, 100%, 88vh, 0, 100%);
+}
+                                                          /* NAVIGATION BAR */
+nav {
+    width: 80%;
+    height: 11rem;
+    line-height: 7rem;
+    position: fixed;
+    overflow: auto;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+                                                                /* LOGO */
+
+.logo-box {
+    float: left;
+}
+
+.logo {
+    width: 9rem;
+    height: 7rem;
+    margin-right: 7rem;
+    margin-left: 3rem;
+}
+
+                                                                /* UL LI */
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 2.5rem;
+    font-size: 12px;
+    height: 3rem;
+    weight: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: .2rem solid rgb(212, 99, 240);
+    border-top: .2rem solid rgb(212, 99, 240);
+    transition: 0.4s;
+    background-color: rgb(78, 73, 73);
+}
+ 
+                                                                     /* TEXT */
+
+.text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.primary-text {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.main-text {
+    display: block;
+    font-family: Brushstroke, fantasy;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.0rem;
+    margin-right: -3.5rem;
+    margin-bottom: 4rem;
+}
+
+.heading-text {
+    display: block;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    margin-right: -1.75rem;
+}
+
+                                                                /*  SEARCH BOX  */                                                                         
+
+.search-box {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 110px;
+    padding: 10px;
+ }
+   
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+   
+.search-btn {
+    color: #e84118;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    color: white;
+    cursor: pointer;
+}
+   
+
+.search-box:hover > .search-btn {
+    background: white;
+    color: black;
+   }
+   
+.search-btn > i {
+    font-size: 300px;
+}
+   
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.prijava {
+    width: 300px;
+    height: 450px;
+    background: url(http://68.media.tumblr.com/2b27908fac782ca54cc2b3aff6862423/tumblr_mra3owkIhC1ro855no1_500.gif)
+    center center no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 3px;
+}
+
+.prijava .form {
+    width: 100%;
+    height: 100%;
+}
